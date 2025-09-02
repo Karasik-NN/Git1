@@ -3,12 +3,16 @@ package Nikita;
 import java.util.Random;
 
 public class Git1 {
-
-	public static void main(String[] args) {
-int skaitlis;
+static void mestKaulinu() {
+	int skaitlis;
 Random rand = new Random();
 skaitlis = rand.nextInt(6)+1;
 System.out.println("Uzkrita skatilis: "+ skaitlis);
+}
+	public static void main(String[] args) {
+		mestKaulinu();
+
+
 	}
 
 }
