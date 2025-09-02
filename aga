@@ -1,0 +1,25 @@
+[1mdiff --git a/bin/Nikita/Git1.class b/bin/Nikita/Git1.class[m
+[1mindex f795235..3e2a714 100644[m
+Binary files a/bin/Nikita/Git1.class and b/bin/Nikita/Git1.class differ
+[1mdiff --git a/src/Nikita/Git1.java b/src/Nikita/Git1.java[m
+[1mindex af634e2..7e298a3 100644[m
+[1m--- a/src/Nikita/Git1.java[m
+[1m+++ b/src/Nikita/Git1.java[m
+[36m@@ -1,10 +1,15 @@[m
+ package Nikita;[m
+ [m
+[32m+[m[32mimport java.util.Random;[m
+[32m+[m
+ public class Git1 {[m
+ [m
+ 	public static void main(String[] args) {[m
+[31m-		// TODO Auto-generated method stub[m
+[31m-[m
+[32m+[m[32mint skaitlis;[m
+[32m+[m[32mRandom rand = new Random();[m
+[32m+[m[32mskaitlis = rand.nextInt(6)+1;[m
+[32m+[m[32mSystem.out.println("Uzkrita skatilis: "+ skaitlis);[m
+ 	}[m
+ [m
+ }[m
+[41m+[m
